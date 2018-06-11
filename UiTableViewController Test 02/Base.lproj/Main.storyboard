@@ -172,9 +172,25 @@
                     <view key="view" contentMode="scaleToFill" id="Jhs-Hh-6vl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="NZY-oP-off">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NZY-oP-off" firstAttribute="top" secondItem="Yzh-lm-rHJ" secondAttribute="top" id="Bhx-kr-8ad"/>
+                            <constraint firstItem="NZY-oP-off" firstAttribute="leading" secondItem="Yzh-lm-rHJ" secondAttribute="leading" id="N3f-1S-GXZ"/>
+                            <constraint firstItem="Yzh-lm-rHJ" firstAttribute="bottom" secondItem="NZY-oP-off" secondAttribute="bottom" id="NCE-hk-GaJ"/>
+                            <constraint firstItem="NZY-oP-off" firstAttribute="top" secondItem="Yzh-lm-rHJ" secondAttribute="top" id="okb-P9-011"/>
+                            <constraint firstItem="Yzh-lm-rHJ" firstAttribute="trailing" secondItem="NZY-oP-off" secondAttribute="trailing" id="sSN-98-4yH"/>
+                            <constraint firstItem="Yzh-lm-rHJ" firstAttribute="bottom" secondItem="NZY-oP-off" secondAttribute="bottom" id="spR-EU-wAT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Yzh-lm-rHJ"/>
                     </view>
+                    <connections>
+                        <outlet property="totalMapView" destination="NZY-oP-off" id="Pvd-Jo-SLm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnl-hf-HLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

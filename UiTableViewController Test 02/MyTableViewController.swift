@@ -145,6 +145,7 @@ class MyTableViewController: UITableViewController {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow{
                 let destinationController = segue.destination as! DetailViewController
+                
                 destinationController.title = foodStoreNames[indexPath.row]
                 
                 //이름 넘기기
@@ -165,8 +166,17 @@ class MyTableViewController: UITableViewController {
                 
                 //메뉴 넘기기
                 
+                
             }
+        } else if segue.identifier == "totalMap" {
+            let destinationController = segue.destination as!
+            TotalMapViewController
+            destinationController.locations = foodStoreAddress
+            destinationController.names = foodStoreNames
+            
+            
         }
+        
     }
     
 
