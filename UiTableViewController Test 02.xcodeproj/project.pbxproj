@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1424BAEF20BBDA7400BE6E10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424BAEE20BBDA7400BE6E10 /* DetailViewController.swift */; };
 		1434464E20CE515700F615D9 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434464D20CE515700F615D9 /* TotalMapViewController.swift */; };
+		145CDA5020D77EF200BC66A3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CDA4F20D77EF200BC66A3 /* DataModel.swift */; };
 		741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17E420AC061400FE6E1E /* AppDelegate.swift */; };
 		741C17EA20AC061400FE6E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C17E820AC061400FE6E1E /* Main.storyboard */; };
 		741C17EC20AC061400FE6E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741C17EB20AC061400FE6E1E /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		1424BAEE20BBDA7400BE6E10 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1434464D20CE515700F615D9 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
+		145CDA4F20D77EF200BC66A3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UiTableViewController Test 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		741C17E420AC061400FE6E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741C17E920AC061400FE6E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				741C17ED20AC061400FE6E1E /* LaunchScreen.storyboard */,
 				741C17F020AC061400FE6E1E /* Info.plist */,
 				1434464D20CE515700F615D9 /* TotalMapViewController.swift */,
+				145CDA4F20D77EF200BC66A3 /* DataModel.swift */,
 			);
 			path = "UiTableViewController Test 02";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
 				1424BAEF20BBDA7400BE6E10 /* DetailViewController.swift in Sources */,
 				1434464E20CE515700F615D9 /* TotalMapViewController.swift in Sources */,
+				145CDA5020D77EF200BC66A3 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
